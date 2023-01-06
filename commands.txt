@@ -1,0 +1,42 @@
+This discord bot listen to the regular messages which follows a certain command syntax and retrieves the 
+data related to the cryptocurrency, stock, Finance & market news, Currency Exchange and weather.
+
+1. CryptoPrice Argument1 
+Command Format: CryptoPrice Symbol
+Argument 1: Name or Symbol of cryptocurrency (BTC, ETH, BNB)
+Description: This command is used for retrieving the cryptocurrency price.
+Return: cryptocurrency price
+Sample Usage: CryptoPrice BTC
+
+2. StockPrice Argument1
+Command Format: StockPrice Symbol
+Argument 1: Symbol of Stock company (AAPL, MSFT, TSLA, NVDA)
+Description: This command is used for retrieving the stock price for a particular company.
+Return: stock price
+Sample Usage: StockPrice TSLA
+
+3. MarketNews Argument1 Argument2
+Command Format: MarketNews Symbol language
+Argument 1: Symbol of Stock company (AAPL, MSFT, TSLA, NVDA)
+Argument 2: Specify language for information (en, es, ar, fa)
+Description: This command is used for retrieving the stock market & finance news in a particular language.
+Return: News title, description, and url
+Sample Usage: MarketNews TSLA en
+
+4. CurrencyConversion Argument1 Argument2 Argument3
+Command Format: MarketNews From To Amount
+Argument 1: The three-letter currency code of the currency you would like to convert from (USD, CAD, EUR).
+Argument 2: The three-letter currency code of the currency you would like to convert to (USD, CAD, EUR).
+Argument 3: The amount to be converted from one currency to another (1200).
+Description: This command is used for converting the amount from one currency to another.
+Return: Converted Amount in different currency
+Sample Usage: CurrencyConversion USD CAD 1200
+
+5. Weather Argument1 Argument2
+Command Format: Weather latitude longitude
+Argument 1: latitude geographical coordinates value (43.255203)
+Argument 2: longitude geographical coordinates value (-79.843826)
+Description: This command is used for retrieving the weather data like temperature, humidity for a specific 
+            latitude and longitude position.
+Return: city name, country name, temperature, humidity, and weather condition
+Sample Usage: Weather 43.255203 -79.843826
